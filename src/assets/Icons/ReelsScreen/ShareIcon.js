@@ -1,0 +1,33 @@
+import * as React from 'react'
+import Svg, { Path, Defs, Pattern, Use, Image } from 'react-native-svg'
+import { memo } from 'react'
+const ShareIcon = (props) => (
+  <Svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    width={32}
+    height={32}
+    fill="none"
+  >
+    <Path fill="url(#a)" d="M0 0h32v32H0z" />
+    <Defs>
+      <Pattern
+        id="a"
+        width={1}
+        height={1}
+        patternContentUnits="objectBoundingBox"
+      >
+        <Use xlinkHref="#b" transform="scale(.00781)" />
+      </Pattern>
+      <Image
+        xlinkHref="data:image/png;base64,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"
+        id="b"
+        width={128}
+        height={128}
+      />
+    </Defs>
+  </Svg>
+)
+const Memo = memo(ShareIcon)
+export default Memo

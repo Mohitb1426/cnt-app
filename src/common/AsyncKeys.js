@@ -1,0 +1,15 @@
+const ASYNC_KEY_USER_ID = 'userId'
+const ASYNC_KEY_ACCESS_TOKEN = 'accessToken'
+const ASYNC_KEY_PHONE_NUMBER = 'phoneNumber'
+const ASYNC_KEY_REFRESH_TOKEN = 'refreshToken'
+const ASYNC_KEY_MOBILE_ID = 'mobileId'
+const ASYNC_KEY_MOBILE_NAME = 'mobileName'
+
+export default {
+  ASYNC_KEY_USER_ID,
+  ASYNC_KEY_ACCESS_TOKEN,
+  ASYNC_KEY_PHONE_NUMBER,
+  ASYNC_KEY_REFRESH_TOKEN,
+  ASYNC_KEY_MOBILE_ID,
+  ASYNC_KEY_MOBILE_NAME
+}
